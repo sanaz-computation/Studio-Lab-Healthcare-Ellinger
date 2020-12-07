@@ -163,7 +163,7 @@ export default function PrimarySearchAppBar(){
 
 	return (
 		<div className={classes.grow}>
-			<AppBar position='static' color='#f4f4f4'>
+			<AppBar position='static'>
 				<Toolbar>
 					<IconButton
 						edge='start'
@@ -174,7 +174,7 @@ export default function PrimarySearchAppBar(){
 						<MenuIcon />
 					</IconButton>
 					<Typography className={classes.title} variant='h6' noWrap>
-						Med / Loc
+						MedLoc
 					</Typography>
 					<div className={classes.search}>
 						<div className={classes.searchIcon}>
